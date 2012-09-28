@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="keywords" content="tattoo, appointment, ink, easy, application"/>
+    <meta name="description" content="an application for clients of tattoo artists to make appointments"/>
+    <meta name="viewport" content="width=device-width"/>
+    
+    <title>Got Ink?</title>
+</head>
+<body>
+	<h1>Tattoo Appointment</h1>
+	<form action="" method="post">
+		<feildset>
+			<ledgend>Your Information</ledgend>
+			<ul>
+				<li><label for="fname">First Name:</lable><input type="text" id="fname" /></li>
+				<li><label for="lname">Last Name:</lable><input type="text" id="lname" /></li>
+				<li><label for="email">Email:</lable><input type="email" id="email" placeholder="Enter your email address" /></li>
+				<li><input type="radio" name="sex" value="male" /><label for="sex">Male</label></li>
+				<li><input type="radio" name="sex" value="female" /><label for="sex">Female</label></li>
+				<input type="hidden" name="Language" value="English">
+			</ul>
+		</feildset>
+		<feildset>
+			<ledgend>Tattoo Information</ledgend>
+			<ul>
+				<li><label for="url">Website for desired artwork:</lable><input type="url" id="url" placeholder="If unavailable N/A" /></li>
+				<li><label for="date">Desired date:</label><input type="datetime" id="date" placeholder="mm/dd/yy" /></li>
+				<li><lable for="pain">Pain Tolerance</label><input type="range" name="pain" min="1" max="10" /></li>
+				<li><label for="comments">Comments:</lable><input type="text" id="comments" /></li>
+			</ul>
+		</feildset>
+			<input type="submit" value="Submit"><br>
+			<a href="#">Clear Stored Data</a>
+			<a href="#">Display Data</a>
+		</body>
+</html>
